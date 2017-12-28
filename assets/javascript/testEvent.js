@@ -52,6 +52,8 @@ var myLatlng = {lat: -25.363, lng: 131.044};
 
 
           var results = response._embedded.events[0]._embedded.venues;
+
+
           for (var i = 0; i < results.length; i++) {
               var eventsObj = results[i];
               console.log(eventsObj);

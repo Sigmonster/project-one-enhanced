@@ -26,12 +26,12 @@
 							<!-- END Panel heading -->
 						</div>
 						<div class="panel-body">
-							<form role="form">
+							<form role="form" action="event.preventDefault(); DoWork();">
 								<div class="form-group">
 									<label for="band-0input">Band Name:</label>
-									<input class="form-control" id="band-input" type="text" placeholder="Enter Band Name" required>
+									<input class="form-control" id="band-input" type="text" placeholder="Enter Band Name" required value="Start Making Sense">
 									<label for="venue-input">Venue City Name:</label>
-									<input class="form-control" id="venue-input" type="text" placeholder="Enter Venue City" required>
+									<input class="form-control" id="venue-input" type="text" placeholder="Enter Venue City" required value="Ardmore">
 									<!-- END Form Grp -->
 								</div>
 								<input class="btn btn-default" id="add-band" type="submit" ></input>
